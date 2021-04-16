@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Sub-Window</title>
+</head>
+<style>
+    .disabled {
+        pointer-events: none;
+    }
+</style>
+
+<body>
+    <h3>Selected Folder:</h3><span id="selOutFolder"></span><br>
+    <h3>Selected File:</h3><span id="selOutFile"></span>
+    <button id="convert" class="btn btn-primary btn-danger btn-block">Convert now</button>
+    <div id="responseSuccess" class="alert alert-success mt-5 text-center" style="display:none;">
+    </div>
+</body>
+<script src="conversion.js"></script>
+
+</html>
